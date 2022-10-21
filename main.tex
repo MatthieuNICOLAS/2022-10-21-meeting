@@ -1,0 +1,78 @@
+\documentclass[12pt]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{eurosym}
+
+\usetheme{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs} % \toprule, \midrule, \cmidrule, \bottomrule
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\usepackage{acronym} % \ac[p], \acl[p], \acs[p], \acf[p]
+\usepackage{subcaption} % subfigure
+\usepackage[absolute, overlay]{textpos}
+
+\usepackage{graphicx}
+\usepackage{color}
+\AtBeginDocument{
+\definecolor{pdfurlcolor}{rgb}{0,0,0}
+\definecolor{pdfcitecolor}{rgb}{0,0,0}
+\definecolor{pdflinkcolor}{rgb}{0,0,0}
+\definecolor{light}{gray}{.85}
+\definecolor{vlight}{gray}{.95}
+}
+
+\usepackage{fancyvrb} % \Verb, \begin{Verbatim}...
+\usepackage{algorithm}
+\floatname{algorithm}{Algorithme}
+\usepackage{algorithmic}
+
+\usepackage{caption}
+\setbeamertemplate{caption}[default]
+
+\date{2022-10-21}
+
+\author{
+  \textbf{Matthieu Nicolas}
+}
+\title{Réunion}
+\subtitle{}
+\institute{}
+
+\begin{document}
+
+
+\maketitle
+
+\begin{frame}{Résumé du mois}
+  \centering
+  \includegraphics[width=0.9 \linewidth]{img/meme.jpg}
+  \pause
+  \begin{itemize}
+    \item \textbf{Save the date(s)} : 16-23 décembre
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Questions présentation}
+  \textbf{Plan}
+  \begin{itemize}
+    \item \textbf{Intro + Contexte} : 5min
+    \item \textbf{Etat de l'art} : 5-10min
+    \item \textbf{Contrib} : 25-30min
+    \item \textbf{Conclusion + Perspectives} : 5min
+  \end{itemize}
+  \pause
+  \textbf{Perspective}
+  \begin{itemize}
+    \item Finir sur une perspective qui suit la contribution ou une qui ouvre le domaine de recherche ?
+  \end{itemize}
+\end{frame}
+
+\end{document}
